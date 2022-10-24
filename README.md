@@ -5,6 +5,8 @@ Clean the raw data using `correia_clean.r`, and run regressions with `correia_re
 
 The cleaned dataset is `data.csv`.
 
+To re-run the results using restricted NCHS mortality data, use `correia_results_nchs.r`.
+
 ### Data sources
 - [Mortality](https://ghdx.healthdata.org/record/ihme-data/united-states-mortality-rates-county-1980-2014): download and extract the five CSV files for 'Mortality Rates by County 1980-2014'.
 - [Population](https://www.nber.org/research/data/survey-epidemiology-and-end-results-seer-us-state-and-county-population-data-age-race-sex-hispanic): download the CSV file for All States Combined (Adjusted), County, 19 Age Groups, 1990-, 4 Expanded Races by Origin (usrace19agesadj.csv).
